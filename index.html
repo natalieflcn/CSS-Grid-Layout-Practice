@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>        
+    <title>CSS Grid Layout</title>
+    <style>
+        .grid{
+            display:grid;
+            grid-template-columns:70% 30%;
+        }
+
+        .grid > div{
+            background-color:#eee;
+            padding:1em;
+        }
+
+        .grid > div:nth-child(odd){
+            background:#ddd;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="grid">
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ex praesentium illum dignissimos accusamus iure veniam maiores distinctio eum suscipit facere amet laborum error in voluptate natus necessitatibus reiciendis vero aut, libero a. Totam fugit veniam, nesciunt esse laborum officiis asperiores earum eveniet aliquid, veritatis, beatae optio. Ut eveniet minima ea minus voluptatibus sunt doloremque velit perspiciatis accusantium sit, earum illum tempore, quos consequatur porro laboriosam! Distinctio repellat odit nam accusantium facilis est fugit optio, eius excepturi, deserunt doloremque vitae.
+        </div>
+        <div>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, deleniti sit, aperiam, explicabo accusamus fugiat cumque magnam ipsam consequatur voluptatibus earum unde cupiditate tempore adipisci provident pariatur iusto officia nostrum.
+        </div>
+    </div>
+</body>
+</html>
