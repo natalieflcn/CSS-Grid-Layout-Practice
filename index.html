@@ -1,33 +1,117 @@
 <!DOCTYPE html>
-<html>
-<head>        
-    <title>CSS Grid Layout</title>
-    <style>
-        .grid{
-            display:grid;
-            grid-template-columns:70% 30%;
-        }
-
-        .grid > div{
-            background-color:#eee;
-            padding:1em;
-        }
-
-        .grid > div:nth-child(odd){
-            background:#ddd;
-        }
-
-    </style>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonials</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <div class="grid">
-        <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ex praesentium illum dignissimos accusamus iure veniam maiores distinctio eum suscipit facere amet laborum error in voluptate natus necessitatibus reiciendis vero aut, libero a. Totam fugit veniam, nesciunt esse laborum officiis asperiores earum eveniet aliquid, veritatis, beatae optio. Ut eveniet minima ea minus voluptatibus sunt doloremque velit perspiciatis accusantium sit, earum illum tempore, quos consequatur porro laboriosam! Distinctio repellat odit nam accusantium facilis est fugit optio, eius excepturi, deserunt doloremque vitae.
+    <div class="testimonials">
+        <div class="card card--bg-purple"> <!--BEM Syntax-->
+            <header class="card__header">
+                <img src="IMG_4288.JPG" class="card__img" alt="">
+                <div>
+                    <h3>Sebastian Falcon</h3>
+                    <p>Stinky Hingy Booty</p>
+                </div>
+            </header>
+            <p class="card__lead">
+                Sebastian is trying to play Roblox on his Mom's
+                old Macbook, but the computer is too old for the
+                application to download.
+            </p>
+            <p class="card__quote">
+                "I don't care! I want to play Roblox! I'm so
+                stinky."
+            </p>
+
         </div>
-        <div>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, deleniti sit, aperiam, explicabo accusamus fugiat cumque magnam ipsam consequatur voluptatibus earum unde cupiditate tempore adipisci provident pariatur iusto officia nostrum.
+
+        <div class="card card--bg-gray-blue"> <!--BEM Syntax-->
+            <header class="card__header">
+                <img src="IMG_4226.JPG" class="card__img" alt="">
+                <div>
+                    <h3>Sebastian Falcon</h3>
+                    <p>Stinky Hingy Booty</p>
+                </div>
+            </header>
+            <p class="card__lead">
+                Sebastian is trying to play Roblox on his Mom's
+                old Macbook, but the computer is too old for the
+                application to download.
+            </p>
+            <p class="card__quote">
+                "I don't care! I want to play Roblox! I'm so
+                stinky."
+            </p>
+
+        </div>
+
+        <div class="card"> <!--BEM Syntax-->
+            <header class="card__header">
+                <img src="IMG_4290.JPG" class="card__img" alt="">
+                <div>
+                    <h3>Sebastian Falcon</h3>
+                    <p>Stinky Hingy Booty</p>
+                </div>
+            </header>
+            <p class="card__lead">
+                Sebastian is trying to play Roblox on his Mom's
+                old Macbook, but the computer is too old for the
+                application to download.
+            </p>
+            <p class="card__quote">
+                "I don't care! I want to play Roblox! I'm so
+                stinky."
+            </p>
+
+        </div>
+
+        <div class="card card--bg-black-blue"> <!--BEM Syntax-->
+            <header class="card__header">
+                <img src="IMG_4324.JPG" class="card__img" alt="">
+                <div>
+                    <h3>Sebastian Falcon</h3>
+                    <p>Stinky Hingy Booty</p>
+                </div>
+            </header>
+            <p class="card__lead">
+                Sebastian is trying to play Roblox on his Mom's
+                old Macbook, but the computer is too old for the
+                application to download.
+            </p>
+            <p class="card__quote">
+                "I don't care! I want to play Roblox! I'm so
+                stinky."
+            </p>
+
+        </div>
+
+        <div class="card card--bg-purple"> <!--BEM Syntax-->
+            <header class="card__header">
+                <img src="IMG_4336.JPG" class="card__img" alt="">
+                <div>
+                    <h3>Sebastian Falcon</h3>
+                    <p>Stinky Hingy Booty</p>
+                </div>
+            </header>
+            <p class="card__lead">
+                Sebastian is trying to play Roblox on his Mom's
+                old Macbook, but the computer is too old for the
+                application to download.
+            </p>
+            <p class="card__quote">
+                "I don't care! I want to play Roblox! I'm so
+                stinky."
+            </p>
+
         </div>
     </div>
+
+    <footer>
+        <h3>Project Inspired By: Traversy Media</h3>
+    </footer>
+    
 </body>
 </html>
